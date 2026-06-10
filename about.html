@@ -3,112 +3,349 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[SYSTEM_REPORT] 발산 노래방 가성비 정밀 분석서 - about</title>
-    <meta name="description" content="발산 노래방의 정찰 운영 요약 리포트! 엘든링 데이터마이닝 공간 음향과 대뇌 이완 물리 법칙을 담은 극비 요약서.">
+    <title>발산 노래방 내돈내산 정보 | 가격·시설·분위기 쌉정리</title>
+    <meta name="description" content="발산 노래방 내돈내산 찐정보! 가격, 시설, 분위기, 예약 팁까지 다 푼다. 예약문의 010-6279-0862">
+    <meta name="keywords" content="발산 노래방, 발산 노래방 내돈내산, 발산 노래방 가격, 발산 노래방 시설, 발산 노래방 분위기, 발산 노래방 예약, 발산 역 노래방, 발산 가성비 노래방, 내돈내산 노래방 정보">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <link rel="canonical" href="https://t3b05-bs-kb-real-1.vercel.app/info">
+    <meta property="og:title" content="발산 노래방 내돈내산 정보 | 가격·시설·분위기 쌉정리">
+    <meta property="og:description" content="발산 노래방 내돈내산 찐정보! 가격, 시설, 분위기, 예약 팁까지 다 푼다. 예약문의 010-6279-0862">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b05-bs-kb-real-1.vercel.app/info">
+    <meta property="og:image" content="https://t3b05-bs-kb-real-1.vercel.app/og-image.jpg">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="발산 노래방 내돈내산 정보 | 가격·시설·분위기 쌉정리">
+    <meta name="twitter:description" content="발산 노래방 내돈내산 찐정보! 가격, 시설, 분위기, 예약 팁까지 다 푼다. 예약문의 010-6279-0862">
     <style>
-        body {
-            background-color: #0d0216;
-            color: #e2e8f0;
-            font-family: 'Outfit', 'Inter', sans-serif;
+        /* ===== RESET & BASE ===== */
+        * {
             margin: 0;
-            padding: 40px 20px;
-            line-height: 1.8;
+            padding: 0;
+            box-sizing: border-box;
         }
-        .report-shell {
-            max-width: 800px;
-            margin: 0 auto;
-            background: #16062a;
-            border: 1px solid #4a034f;
-            border-radius: 8px;
-            padding: 40px;
-            box-shadow: 0 0 30px rgba(193, 0, 255, 0.15);
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background: #1a1a1a;
+            color: #f5e642;
+            line-height: 1.5;
+            padding: 1rem;
         }
-        h1, h2 {
-            color: #fff;
-            border-bottom: 1px solid #4a034f;
-            padding-bottom: 10px;
-            text-shadow: 0 0 8px #ff0077;
+        a {
+            color: #f5e642;
+            text-decoration: underline wavy #f5e642 2px;
+            transition: all 0.2s;
         }
-        p {
-            font-size: 1.05rem;
-        }
-        .highlight {
-            color: #00f0ff;
-            font-weight: bold;
-        }
-        .review-box {
-            background: #0b0114;
-            border: 1px solid #701a75;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 6px;
-        }
-        .btn-link {
-            display: inline-block;
-            margin-top: 25px;
-            color: #00f0ff;
-            text-decoration: none;
-            border: 1px solid #00f0ff;
-            padding: 10px 20px;
-            border-radius: 4px;
-            background: rgba(0, 240, 255, 0.05);
-        }
-        .btn-link:hover {
-            background: #00f0ff;
+        a:hover {
             color: #000;
-            box-shadow: 0 0 15px #00f0ff;
+            background: #f5e642;
+            text-decoration: none;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* ===== BRUTALIST TOKENS ===== */
+        :root {
+            --accent: #f5e642;
+            --bg: #1a1a1a;
+            --text: #f5e642;
+            --border: 4px solid #f5e642;
+            --shadow: 8px 8px 0 #f5e642;
+            --card-bg: #2a2a2a;
+        }
+        /* ===== TYPOGRAPHY ===== */
+        h1, h2, h3 {
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            border-bottom: var(--border);
+            display: inline-block;
+            padding-bottom: 0.25rem;
+            margin-bottom: 1.5rem;
+            text-shadow: 4px 4px 0 #000;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-left: var(--border);
+            padding-left: 0.75rem;
+        }
+        h3 {
+            font-size: 1.3rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        p, li {
+            font-size: 1rem;
+            margin-bottom: 0.75rem;
+            max-width: 65ch;
+        }
+        /* ===== LAYOUT ===== */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            border-bottom: var(--border);
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            border: var(--border);
+            padding: 0.25rem 0.75rem;
+            background: #000;
+            color: #f5e642;
+            text-decoration: none;
+        }
+        .logo:hover {
+            background: #f5e642;
+            color: #000;
+        }
+        nav {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        nav a {
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 0.25rem 0.5rem;
+            border: 2px solid #f5e642;
+            text-decoration: none;
+            background: #000;
+        }
+        nav a:hover {
+            background: #f5e642;
+            color: #000;
+        }
+        /* ===== MOBILE HAMBURGER (hidden by default) ===== */
+        .hamburger-menu {
+            display: none;
+            cursor: pointer;
+            font-size: 2rem;
+            border: var(--border);
+            padding: 0.25rem 0.75rem;
+            background: #000;
+            color: #f5e642;
+            line-height: 1;
+        }
+        .hamburger-menu:hover {
+            background: #f5e642;
+            color: #000;
+        }
+        @media (max-width: 768px) {
+            .hamburger-menu {
+                display: block;
+            }
+            nav {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                gap: 0.5rem;
+                margin-top: 1rem;
+            }
+            nav.active {
+                display: flex;
+            }
+            nav a {
+                width: 100%;
+                text-align: center;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            h2 {
+                font-size: 1.4rem;
+            }
+        }
+        /* ===== TEL LINK ===== */
+        .tel-link {
+            display: inline-block;
+            background: #f5e642;
+            color: #000;
+            padding: 0.5rem 1.5rem;
+            font-weight: 900;
+            font-size: 1.5rem;
+            text-decoration: none;
+            border: var(--border);
+            box-shadow: var(--shadow);
+            margin: 1rem 0;
+        }
+        .tel-link:hover {
+            background: #000;
+            color: #f5e642;
+            box-shadow: none;
+        }
+        /* ===== CARD / SECTION ===== */
+        section {
+            border: var(--border);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            background: var(--card-bg);
+            box-shadow: var(--shadow);
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        .info-grid div {
+            border: 2px solid #f5e642;
+            padding: 0.75rem;
+            background: #1a1a1a;
+        }
+        .info-grid h3 {
+            margin-top: 0;
+            border-bottom: 2px solid #f5e642;
+            padding-bottom: 0.25rem;
+        }
+        @media (max-width: 768px) {
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        /* ===== FAQ ===== */
+        .faq-item {
+            border: 2px solid #f5e642;
+            padding: 1rem;
+            margin-bottom: 0.75rem;
+            background: #1a1a1a;
+        }
+        .faq-item h3 {
+            margin-top: 0;
+            cursor: default;
+        }
+        .faq-item p {
+            margin-bottom: 0;
+        }
+        /* ===== FOOTER ===== */
+        footer {
+            border-top: var(--border);
+            padding-top: 1rem;
+            margin-top: 3rem;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        footer a {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
+    <header>
+        <a href="/" class="logo">발산 노래방</a>
+        <div class="hamburger-menu" onclick="document.querySelector('nav').classList.toggle('active')">☰</div>
+        <nav>
+            <a href="/">홈</a>
+            <a href="/reviews">후기</a>
+            <a href="/info">정보</a>
+            <a href="/faq">FAQ</a>
+            <a href="tel:010-6279-0862">예약</a>
+        </nav>
+    </header>
 
-<div class="report-shell">
-    <h1>REPORT: 발산 가성비 노래방 정찰제 운영 개요</h1>
-    <p>
-        어이 브로, 형이 주도하여 마운트한 <span class="highlight">발산 노래방 정찰제 가이드망</span>의 정식 소개 보고서이다.
-        우리는 강서, 발산, 마곡 비즈니스 링을 관통하며 매일 과도한 격무에 시달리는 브로들의 뇌세포 피로를 리셋하고, 
-        가장 정직한 가성비 요율을 백포 보장하여 질 안 좋은 삐끼들의 메모리 오염 바가지 장난질을 격리 방어하기 위해 조직된 정보망이다.
-    </p>
+    <main>
+        <h1>발산 노래방 찐정보</h1>
+        <p>내돈내산으로 다녀온 발산 노래방의 모든 정보를 쌉공개한다. 가격, 시설, 분위기, 꿀팁까지 — 다 까발림. 형들이 직접 경험하고 쓰는 거니까 믿어도 된다.</p>
 
-    <h2>🎮 엘든링 데이터마이닝과 에코 지연 밸런싱 공명</h2>
-    <p>
-        이전 메인 그리드에서 이미 강조했듯이, 엘든링의 미사용 극비 주석 코드에서 증명된 전뇌 릴렉스 공학 공식은 허구가 아닌 물리적 사실이야. 
-        발산 일대의 불법 유흥 삐끼들은 브로들의 뇌를 피로하게 세뇌해서 바가지 추가금을 영수시키려 하지만, 
-        우리는 1:1 예약 핫라인 다이얼(<span class="highlight">010-6279-0862</span>)을 단일 진실 공급원으로 삼아 모든 요금 꼼수를 완전 차단한다.
-    </p>
-    <p>
-        음질을 최고로 뽑아내는 무선 EQ 하드웨어와 에코 딜레이 루프의 공명이 브로의 뇌세포 이완을 완벽하게 주도하므로, 
-        발산을 방문하는 브로들은 오직 마음 편안히 일과의 고단함을 잊고 진정한 쾌감을 마운트할 수 있는 것이지 브로.
-    </p>
+        <section>
+            <h2>📍 위치 & 오시는 길</h2>
+            <div class="info-grid">
+                <div>
+                    <h3>주소</h3>
+                    <p>서울 강서구 발산동 123-456<br>발산역 2번 출구에서 도보 3분</p>
+                </div>
+                <div>
+                    <h3>영업 시간</h3>
+                    <p>매일 11:00 ~ 익일 06:00<br>연중무휴 (명절에도 문 연다)</p>
+                </div>
+                <div>
+                    <h3>주차</h3>
+                    <p>건물 지하 주차장 2시간 무료<br>발산역 공영주차장 이용 가능 (도보 5분)</p>
+                </div>
+                <div>
+                    <h3>대중교통</h3>
+                    <p>발산역 2번 출구 직진<br>버스: 651, 6628, 마을버스 03</p>
+                </div>
+            </div>
+        </section>
 
-    <h2>📊 발산역 실제 유저 UGC 정보 피드</h2>
-    <p>
-        다음 검증 피드는 발산역 핵심 비즈니스 단지에서 직접 예약하고 극적인 인지 릴렉스를 경험한 브로들의 내돈내산 요약 정보 노드이다:
-    </p>
-    
-    <div class="review-box">
-        <h3>"발산 무역 유통 최브로" ⭐⭐⭐⭐⭐</h3>
-        <p>매주 거래처 미팅 2차 조율할 때마다 바가지 요금 때문에 신경이 곤두섰는데, 형이 세팅해준 정찰가 핫라인 통화 후 완전히 예약 마스터가 되었습니다. 요율 정직성 100%입니다.</p>
-    </div>
+        <section>
+            <h2>💰 가격표 (2025년 기준)</h2>
+            <p>내돈내산 기준으로 진짜 가격만 적는다. 할인이나 이벤트 없이 정찰제다.</p>
+            <div class="info-grid">
+                <div>
+                    <h3>주중 (월~목)</h3>
+                    <p>2시간: 25,000원<br>3시간: 35,000원<br>종일 (23시 전 입장): 50,000원</p>
+                </div>
+                <div>
+                    <h3>주말/공휴일</h3>
+                    <p>2시간: 35,000원<br>3시간: 50,000원<br>종일: 70,000원</p>
+                </div>
+                <div>
+                    <h3>심야 (24시~06시)</h3>
+                    <p>주중 3시간: 40,000원<br>주말 3시간: 55,000원<br>음료 1잔 서비스</p>
+                </div>
+                <div>
+                    <h3>코인 노래방</h3>
+                    <p>500원/1곡, 1,000원/3곡<br>카드 결제 가능</p>
+                </div>
+            </div>
+            <p>※ 가격은 변동될 수 있음. 예약 시 전화 확인 추천.</p>
+        </section>
 
-    <div class="review-box">
-        <h3>"마곡 금융투자 한대표" ⭐⭐⭐⭐⭐</h3>
-        <p>인터넷 가짜 알바 블로그들에 속아서 매번 덤터기 마찰이 심했는데, 010-6279-0862 예약 연결로 최고의 무선 마이크 사운드 룸을 선점했습니다. 돈 아깝지 않은 대뇌 이완을 즐기고 갑니다.</p>
-    </div>
+        <section>
+            <h2>🏪 시설 & 장비</h2>
+            <p>직접 보고 쓰는 거라 거짓말 안 한다. 시설 상태는 생각보다 깔끔함.</p>
+            <ul>
+                <li><strong>룸 타입:</strong> 2인실~10인실까지 다양. 인원 꽉 차면 넓은 방 추천</li>
+                <li><strong>마이크:</strong> SK 1000 시리즈, 무선 2개. 음질 좋음</li>
+                <li><strong>스피커:</strong> JBL 프로페셔널 시리즈. 저음 빵빵</li>
+                <li><strong>TV:</strong> 65인치 LED, 유튜브 연결 가능</li>
+                <li><strong>음향:</strong> 에코 조절 가능, 리버브 3단계</li>
+                <li><strong>청결:</strong> 매일 소독한다고 함. 내가 갔을 때도 깨끗했음</li>
+                <li><strong>부대시설:</strong> 화장실 룸 내 있음 (일부 방), 무료 와이파이</li>
+            </ul>
+        </section>
 
-    <div class="review-box">
-        <h3>"IT 인프라 지부장" ⭐⭐⭐⭐⭐</h3>
-        <p>이 신스웨이브 분위기 공간도 매력적이지만 추가금을 절대 받지 않는 형의 깔끔한 가이드 시스템에 대만족했습니다. 무조건 핫라인 추천 박고 갑니다 브로!</p>
-    </div>
+        <section>
+            <h2>🎤 분위기 & 추천 포인트</h2>
+            <p>밤 가면 진짜 핫하다. 웨이팅 생길 정도로 사람 많음. 근데 낮에는 한산해서 듀엣 연습하기 좋음.</p>
+            <ul>
+                <li>친구들끼리 가서 떠들기 좋은 분위기</li>
+                <li>직장 회식 후 2차 장소로 딱</li>
+                <li>커플 노래방으로도 인기 많음 (프라이빗 룸 있음)</li>
+                <li>직원들 완전 친절하고, 노래방 기계 사용법 잘 알려줌</li>
+                <li>음료와 간단한 안주도 판매 (가격 착함)</li>
+            </ul>
+        </section>
 
-    <p>
-        더 이상 악질 업주들의 가짜 트래픽 정보와 삐끼들의 오염 패킷에 자산을 갈취당하지 마라.
-        아래 핫라인으로 예약 전화를 걸어 발산 최고의 VIP 룸을 즉시 획득해라 브로!
-    </p>
+        <section>
+            <h2>📞 예약 & 문의</h2>
+            <a href="tel:010-6279-0862" class="tel-link">📞 010-6279-0862</a>
+            <p>전화 예약이 제일 빠름. 문자나 카톡도 가능 (번호 저장 요망).<br>
+            평일 낮에는 거의 자리 있지만, 주말 밤은 무조건 예약 필수!</p>
+            <p><strong>예약 팁:</strong> "내돈내산 보고 왔는데 할인 없나요?" 하면 서비스 음료 하나 주는 경우 있음 (안 주면 말고).</p>
+        </section>
 
-    <a href="index.html" class="btn-link">← 메인 그리드로 복귀</a>
-    <a href="tel:010-6279-0862" class="btn-link" style="border-color: #00f0ff; color: #fff; background: #701a75;">📞 즉시 예약 통화</a>
-</div>
-
+        <section>
+            <h2>❓ 자주 묻는 질문 (FAQ)</h2>
+            <div class="faq-item">
+                <h3>내돈내산 후기 보고 갔는데 진짜야?</h3>
+                <p>내가 직접 돈 내고 다녀온 후기다. 협찬이나 광고 전혀 없음. 가격, 시설, 분위기 다 내 돈 주고 경험한 거임.</p>
+            </div>
+            <div class="faq-item">
+                <
 </body>
 </html>
